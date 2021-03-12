@@ -4,7 +4,7 @@ library(maps)
 library(mapproj)
 
 # Load data ----
-counties <- readRDS("~/Documents/433/CensusApp/data/counties.rds")
+counties <- readRDS("data/counties.rds")
 # Source helper functions -----
 source("helpers.R")
 
