@@ -1,7 +1,3 @@
-source("~/Documents/433/CensusApp/helpers.R")
-counties <- readRDS("~/Documents/433/CensusApp/data/counties.rds")
-percent_map(counties$white, "darkgreen", "% White")
-
 # Load packages ----
 library(shiny)
 library(maps)
